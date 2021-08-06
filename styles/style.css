@@ -22,29 +22,27 @@ body {
 }
 .main {
   min-width: 275px;
-  background-color: var(--Soft-violet-accent);
   border-radius: 10px 10px;
   margin: 5rem 1.5rem;
 }
 
 .container {
   background-color: var(--Soft-violet-accent);
-  text-align: center;
   border-radius: 10px 10px 11px 11px;
 }
-.img-2 {
+.img-1 {
   max-width: 100%;
   opacity: 0.5;
   margin-bottom: -3.5px;
   border-radius: 10px 10px 0 0;
 }
-.img-1 {
+.img-2 {
   display: none;
 }
-
 .contents {
   background-color: var(--Dark-desaturated-blue-card);
   border-radius: 0 0 10px 10px;
+  text-align: center;
 }
 .header {
   padding: 2rem 1.7rem 0rem 1.7rem;
@@ -74,17 +72,53 @@ small {
   opacity: 0.5;
 }
 
-@media (min-width: 664px) {
+@media (min-width: 700px) {
+  html {
+    font-size: 16px;
+  }
   .main {
-    margin: 5rem 5rem;
+    margin: 10rem 8rem;
+    padding: 2rem 4rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
     border-radius: 1rem 1rem 1rem 1rem;
-    padding: -2rem 0;
+  }
+  .flex-img {
+    max-width: 35rem;
+    max-height: auto;
+  }
+  .contents {
+    text-align: left;
+    padding: 2.5rem 3.5rem 2.5rem 2.5rem;
+    max-width: 35rem;
+    border-radius: 1rem 0 0 1rem;
+  }
+  .img-1 {
+    display: none;
+  }
+  .img-2 {
+    border-radius: 0 1rem 1rem 0;
+    height: fit-content;
     display: block;
-    min-width: 80%;
+    opacity: 0.5;
+  }
+  .list {
+    display: inline-flex;
+    padding: 2.5rem 0rem 2.5rem 0rem;
+  }
+  .list-1 {
+    padding: 0rem 3.5rem 0rem 2rem;
+  }
+  /* .main {
+    margin: 10rem 10rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    width: 100%;
   }
 
   .container {
-    min-width: 100%;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row-reverse;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -93,8 +127,7 @@ small {
     border-radius: 0 10px 10px 0;
     opacity: 0.5;
     display: block;
-    min-width: 50%;
-    min-height: 50%;
+    width: 30rem;
   }
   .img-2 {
     display: none;
@@ -104,13 +137,13 @@ small {
     text-align: left;
     padding: 1rem 1rem;
     border-radius: 1rem 0 0 1rem;
-    max-width: 50%;
+    width: 50%;
     display: block;
   }
   .list {
     display: inline-flex;
     padding: 0 1rem;
-  }
+  } */
 }
 /* Attribution */
 .attribution {
