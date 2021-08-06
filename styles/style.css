@@ -110,12 +110,16 @@ small {
   .list-1 {
     padding: 0rem 3.5rem 0rem 2rem;
   }
+  .attribution {
+    margin-top: -2rem;
+  }
 }
 /* Attribution */
 .attribution {
   font-size: 20px;
   text-align: center;
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -4rem;
   color: var(--White-main-heading);
 }
 .attribution a {
