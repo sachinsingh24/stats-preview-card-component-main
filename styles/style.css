@@ -6,7 +6,6 @@
   --Soft-violet-accent: #aa5cdb;
   --White-main-heading: #ffffff;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -50,6 +49,7 @@ body {
 span {
   color: var(--Soft-violet-accent);
 }
+
 p {
   padding: 1.5rem 2rem;
   line-height: 1.6;
@@ -63,15 +63,14 @@ p {
 .list-1 {
   padding: 1rem;
 }
+small {
+  opacity: 0.5;
+}
 .header,
 .list {
   color: var(--White-main-heading);
 }
-
-small {
-  opacity: 0.5;
-}
-
+/* media query start for desktop view */
 @media (min-width: 700px) {
   html {
     font-size: 16px;
@@ -111,44 +110,13 @@ small {
   .list-1 {
     padding: 0rem 3.5rem 0rem 2rem;
   }
-  /* .main {
-    margin: 10rem 10rem;
-    border-radius: 1rem 1rem 1rem 1rem;
-    width: 100%;
-  }
-
-  .container {
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: row-reverse;
-    border-radius: 1rem 1rem 1rem 1rem;
-  }
-  .img-1 {
-    border-radius: 0 10px 10px 0;
-    opacity: 0.5;
-    display: block;
-    width: 30rem;
-  }
-  .img-2 {
-    display: none;
-  }
-
-  .contents {
-    text-align: left;
-    padding: 1rem 1rem;
-    border-radius: 1rem 0 0 1rem;
-    width: 50%;
-    display: block;
-  }
-  .list {
-    display: inline-flex;
-    padding: 0 1rem;
-  } */
 }
 /* Attribution */
 .attribution {
-  font-size: 11px;
+  font-size: 20px;
   text-align: center;
+  padding-bottom: 2rem;
+  color: var(--White-main-heading);
 }
 .attribution a {
   color: #3e52a3;
